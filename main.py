@@ -83,4 +83,4 @@ for filename in os.listdir("./cogs"):
   if filename.endswith(".py") and not filename.startswith("_"):
     client.load_extension(f"cogs.{filename[:-3]}")
 
-client.run("OTM3NzY0MTA5OTE3NzYxNTM3.Gwy6hk.tfRcK603ZLgh6G1Z4tML6hzSO-IondnKdTZFiw")
+client.run(TOKEN)
